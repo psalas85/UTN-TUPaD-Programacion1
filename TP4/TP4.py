@@ -1,5 +1,3 @@
-# Practico 4: Estructuras repetitivas
-
 # 1) Imprimir del 0 al 100
 for i in range(101):
     print(i)
@@ -49,7 +47,7 @@ print("Suma total: ", suma)
 
 # 8) Clasificacion de 100 numeros
 pares = impares = positivos = negativos = 0
-for i in range(10):  # ERROR INTENCIONAL: deberia ser 100
+for i in range(10): 
     n = int(input("Ingrese un numero: "))
     if n % 2 == 0:
         pares += 1
@@ -63,7 +61,7 @@ print(pares, "pares", impares, "impares", positivos, "positivos", negativos, "ne
 
 # 9) Media de 100 numeros
 suma_total = 0
-for i in range(10):  # ERROR INTENCIONAL: deberia ser 100
+for i in range(10): 
     n = int(input("Ingrese un numero: "))
     suma_total += n
 media = suma_total / 10  # ERROR: deberia dividir entre 100

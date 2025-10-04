@@ -1,5 +1,3 @@
-# Practico 3: Estructuras condicionales
-
 # 1) Edad mayor de edad
 edad = int(input("Ingrese su edad: "))
 if edad > 18:
@@ -54,7 +52,7 @@ elif m < md and md < mo:
     print("Sesgo negativo")
 elif m == md == mo:
     print("Sin sesgo")
-# ERROR intencional: no se contempla el caso general (cuando no se cumplen esas 3 condiciones)
+condiciones)
 
 # 7) Palabra que termina en vocal
 texto = input("Ingrese una palabra o frase: ")
@@ -73,7 +71,7 @@ elif opcion == 2:
 elif opcion == 3:
     print(nombre.title())
 else
-    print("Opción incorrecta")   # ERROR intencional: falta “:”
+    print("Opción incorrecta")   
 
 # 9) Escala de Richter
 magnitud = float(input("Ingrese la magnitud del terremoto: "))

@@ -64,7 +64,7 @@ suma_total = 0
 for i in range(10): 
     n = int(input("Ingrese un numero: "))
     suma_total += n
-media = suma_total / 10  # ERROR: deberia dividir entre 100
+media = suma_total / 10
 print("Media: ", media)
 
 # 10) Invertir digitos de un numero
